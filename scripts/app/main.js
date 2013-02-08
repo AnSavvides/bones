@@ -21,9 +21,6 @@ require.config({
 		"bootstrap": [
 			"http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/bootstrap.min.js",
 			"../libraries/bootstrap"
-		],
-		"async": [
-			"../libraries/async"
 		]
 	},
 
