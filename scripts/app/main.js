@@ -11,15 +11,15 @@ require.config({
 			"../libraries/jquery"
 		],
 		"underscore": [
-			"http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.3/underscore-min.js",
+			"http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.3/underscore-min",
 			"../libraries/underscore"
 		],
 		"backbone": [
-			"http://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.10/backbone-min.js",
+			"http://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.10/backbone-min",
 			"../libraries/backbone"
 		],
 		"bootstrap": [
-			"http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/bootstrap.min.js",
+			"http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/bootstrap.min",
 			"../libraries/bootstrap"
 		]
 	},
