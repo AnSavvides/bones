@@ -10,25 +10,11 @@ define(function(require, exports) {
 
 		routes : {
 			"": "home",
-			"about": "about",
-			"contact": "contact",
-			"items/:id": "items"
 		},
 
 		home: function() {
-			console.log("Home");
-		},
-
-		about: function() {
-			console.log("About");
-		},
-
-		contact: function() {
-			console.log("Contact");
-		},
-
-		items: function(id) {
-			console.log("Item with id " + id);
+			console.log("...home!");
 		}
+
 	});
 });
