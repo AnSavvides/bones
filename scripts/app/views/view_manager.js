@@ -18,6 +18,8 @@ define(function(require, exports) {
 		this.currentView.render();
 	 
 		$("#main").html(this.currentView.el);
+		
+		this.currentView.afterRender();
 	};
 
 });

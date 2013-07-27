@@ -15,6 +15,11 @@ define(function(require) {
 		close: function() {
 			this.remove();
 			this.unbind();
+		},
+
+		// No-op by default
+		afterRender: function() {
+
 		}
 
 	});
