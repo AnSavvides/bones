@@ -7,19 +7,19 @@ require.config({
 	// Paths are relative to baseUrl.
 	paths: {
 		"jquery" : [
-			"http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min",
+			"//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min",
 			"../libraries/jquery"
 		],
 		"underscore": [
-			"http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.3/underscore-min",
+			"//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.3/underscore-min",
 			"../libraries/underscore"
 		],
 		"backbone": [
-			"http://cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.10/backbone-min",
+			"//cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.10/backbone-min",
 			"../libraries/backbone"
 		],
 		"bootstrap": [
-			"http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/bootstrap.min",
+			"//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/bootstrap.min",
 			"../libraries/bootstrap"
 		]
 	},
@@ -46,6 +46,6 @@ require.config({
 });
 
 // Now we have the main application logic
-require(["jquery", "app"], function($, app) {
+require(["jquery", "app", "bootstrap"], function($, app) {
 	app.initialize();
 });
