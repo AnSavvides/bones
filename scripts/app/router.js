@@ -13,7 +13,7 @@ define(function(require) {
 		viewManager: viewManager,
 
 		routes : {
-			"": "home",
+			"": "home"
 		},
 
 		home: function() {

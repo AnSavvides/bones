@@ -21,6 +21,10 @@ require.config({
 		"bootstrap": [
 			"//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/bootstrap.min",
 			"../libraries/bootstrap"
+		],
+		"handlebars": [
+			"http//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0-rc.3/handlebars.min.js",
+			"../libraries/handlebars"
 		]
 	},
 
@@ -41,7 +45,10 @@ require.config({
 		},
 		"bootstrap": {
 			deps: ["jquery"]
-		}
+		},
+		"handlebars": {
+		    exports: "Handlebars"
+		},
 	}
 });
 
