@@ -3,23 +3,23 @@
 // longer needed.
 define(function(require, exports) {
 
-	"use strict";
+    "use strict";
 
-	var $ = require("jquery");
+    var $ = require("jquery");
 
-	// Showing the view that has been passed as an argument
-	// and taking care of the previous view.
-	exports.showView = function(view) {
-		if (this.currentView) {
-			this.currentView.close();
-		}
+    // Showing the view that has been passed as an argument
+    // and taking care of the previous view.
+    exports.showView = function(view) {
+        if (this.currentView) {
+            this.currentView.close();
+        }
 
-		this.currentView = view;
-		this.currentView.render();
-	 
-		$("#main").html(this.currentView.el);
-		
-		this.currentView.afterRender();
-	};
+        this.currentView = view;
+        this.currentView.render();
+     
+        $("#main").html(this.currentView.el);
+        
+        this.currentView.afterRender();
+    };
 
 });

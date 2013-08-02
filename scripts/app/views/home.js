@@ -1,18 +1,18 @@
 define(function(require) {
 
-	"use strict";
+    "use strict";
 
-	var BaseView = require("views/base"),
-		home = require("text!/templates/home.html");
+    var BaseView = require("views/base"),
+        home = require("text!/templates/home.html");
 
-	return BaseView.extend({
+    return BaseView.extend({
 
-		template: home,
+        template: home,
 
-		render: function() {
-			this.$el.html(this.template);
-		}
+        render: function() {
+            this.$el.html(this.template);
+        }
 
-	});
+    });
 
 });
