@@ -25,6 +25,9 @@ require.config({
         "handlebars": [
             "http//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0-rc.3/handlebars.min.js",
             "../libraries/handlebars"
+        ],
+        "text": [
+            "../libraries/text"
         ]
     },
 
