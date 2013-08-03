@@ -23,10 +23,11 @@ require.config({
             "../libraries/bootstrap"
         ],
         "handlebars": [
-            "http//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0-rc.3/handlebars.min.js",
+            "//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0-rc.3/handlebars.min",
             "../libraries/handlebars"
         ],
         "text": [
+            "//cdnjs.cloudflare.com/ajax/libs/require-text/2.0.5/text"
             "../libraries/text"
         ]
     },
