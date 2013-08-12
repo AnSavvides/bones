@@ -1,3 +1,5 @@
+[![Stories in Ready](https://badge.waffle.io/AnSavvides/bones.png)](http://waffle.io/AnSavvides/bones)
+
 ## Bones ##
 
 Bones is boilerplate to get you started with [RequireJS](http://requirejs.org/), [Backbone.js](http://backbonejs.org/), [Underscore.js](http://underscorejs.org/), [jQuery](http://jquery.com/), [Handlebars](http://handlebarsjs.com/) and [Twitter's Bootstrap](http://twitter.github.com/bootstrap/).
